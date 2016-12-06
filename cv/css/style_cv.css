@@ -1,0 +1,121 @@
+header
+{
+	width: auto;
+	height: 70px;
+	background: #D3E899;
+}
+
+/* Navigation */
+
+nav ul
+{
+	display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    padding: 20px 250px;
+}
+
+nav a
+{
+	font-size: 1.3em;
+    color: #BF2A34;
+}
+
+section
+{
+	display: flex;
+	flex-direction: row-reverse;
+	width: auto;
+	height: 500px;
+}
+
+aside
+{
+	width: 15%;
+	min-width: 160px;
+    background-color: #C2C6F0;
+    text-align: center;
+}
+
+aside a
+{
+	font-size: 120%;
+}
+
+article
+{
+	width: 85%;
+	background-color: white;
+	overflow: auto;
+}
+
+div p
+{
+	font-weight: bold;
+}
+
+.imgfloat
+{
+    float: right;
+    margin-right:20px;
+    padding-top: 20px;
+}
+
+#nom
+{
+clear: both;
+}
+
+h1
+{
+	font-size: 200%;
+	color: navy;
+	text-shadow: 2px 2px 6px navy;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 150%;
+	color: blue;
+	text-shadow: 2px 2px 6px blue;
+	text-align: center;
+}
+
+article, div
+{
+	margin-left: 10px;
+}
+
+#projet
+{
+	font-size:150%;
+	color: black;
+}
+
+#ap1
+{
+		border-top: 2px solid gray;
+		padding-top: 20px;
+}
+
+footer
+{
+	width: auto;
+	height: 60px;
+	display: flex;
+	justify-content: space-between;
+	background: #D3E899;
+	overflow: auto;
+}
+
+footer div
+{
+	margin: 10px;
+}
+
+a:active
+{
+	background-color: #FFCC66
+}
+
