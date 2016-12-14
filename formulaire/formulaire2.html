@@ -1,0 +1,68 @@
+<HTML> 
+<HEAD> 
+<TITLE>Mon formulaire</TITLE> 
+
+<meta charset="utf-8" />
+</HEAD> 
+<body> 
+<h1>Mon premier formulaire HTML5</h1>
+<form method="post" action="destination.php">
+
+	<fieldset style="width:600px;">
+    <legend>Vos données personnelles</legend>
+    <label for="nom">Nom </label>
+    <input type="text" name="nom" id="nom" size="25" maxlength="40" placeholder="Votre nom" /><BR><BR>
+    <label for="prenom">Prénom </label>
+    <input type="text" name="prenom" id="prenom" size="25" maxlength="40" placeholder="Votre prénom" /><BR><BR>
+    <label for="date">Date de naissance </label>
+    <input type="date" name="date" id="date" size="25" maxlength="40" /><BR><BR>
+	
+  <fieldset>
+    <legend>Lieu de naissance</legend>
+    <input type="radio" name="lieu" value="ssd" id="ssd" />
+    <label for="ssd">Seine-Saint-Denis</label>
+    <input type="radio" name="lieu" value="monde" id="monde" />
+    <label for="monde">Reste du monde</label>
+  </fieldset><BR>
+
+    <label for="adresse">Adresse postale </label>
+    <textarea name="zone" cols="25" rows="1" maxlength="60" placeholder="Votre adresse"> 
+        </textarea><BR><BR>
+   <!-- <input type="text" name="adresse" id="adresse" size="25" maxlength="40" placeholder="Votre adresse" /><BR><BR> -->
+    <label for="cp">Code postal </label>
+    <input type="number" name="cp" id="cp" size="25" maxlength="40" placeholder="93000" /><BR><BR>
+    <label for="mail">Adresse électronique </label>
+    <input type="email" name="mail" id="mail" size="25" maxlength="40" placeholder="Votre adresse éléctronique" /><BR><BR>
+    <label for="page">Page personnelle </label>
+    <input type="url" name="page" id="page" size="25" maxlength="40" placeholder="Votre page web" /><BR><BR>
+    <label for="portable">Téléphone portable </label>
+    <input type="tel" name="portable" id="portable" size="25" maxlength="40" placeholder="0601234567" /><BR><BR>
+
+    <label for="semestre">Semestre </label>
+    <select name = "semestre" id="semestre" size = 1 >
+         <option> S1 </option>
+         <option selected> S2 </option>
+         <option> S3 </option>
+         <option> S4 </option>
+    </select><BR><BR>
+
+    <label for="niveau">Niveau en HTML </label>
+    <input type="range" name="niveau" min="0" max="10" value="0" step="1" /><BR><BR>
+
+    <fieldset>
+    <legend>Connaissances</legend>
+      <input type="checkbox" name="connaissances[]" id="html" checked value="html"/> <label for="html">HTML </label>
+      <input type="checkbox" name="connaissances[]" id="css" value="css"/> <label for="css">CSS </label> 
+      <input type="checkbox" name="connaissances[]" id="form" value="formulaires"/> <label for="form">formulaires </label> 
+      <input type="checkbox" name="connaissances[]" id="js" value="JavaScript"/> <label for="js">JavaScript </label>
+    </fieldset><BR>
+
+    <input type="submit" value="Envoyer" />
+
+   </fieldset>
+	</form>
+
+
+
+</body> 
+</HTML>
